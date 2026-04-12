@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "research": "node agents/research-agent.js",
-    "setup": "node agents/setup-agent.js"
+    "setup": "node agents/setup-agent.js",
+    "marketing": "node agents/marketing-agent.js"
   },
   "keywords": [],
   "author": "",
