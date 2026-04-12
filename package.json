@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "research": "node agents/research-agent.js"
+    "research": "node agents/research-agent.js",
+    "setup": "node agents/setup-agent.js"
   },
   "keywords": [],
   "author": "",

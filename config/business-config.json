@@ -1,0 +1,40 @@
+{
+  "businessName": "Build Without Code",
+  "tagline": "AI-Powered App Building for Non-Technical Founders",
+  "targetAudience": {
+    "primary": "Non-technical solopreneurs and founders",
+    "experienceLevel": "Absolute beginners with no programming background",
+    "goals": [
+      "Build SaaS products",
+      "Create web apps",
+      "Launch prototypes with minimal coding"
+    ]
+  },
+  "productTiers": [
+    {
+      "name": "Builder",
+      "priceUSD": 99,
+      "priceZAR": 1800,
+      "description": "Weekly 30-min async coaching via Loom videos, private Discord community access, monthly group Q&A call, and AI prompt templates library. Best for beginners testing ideas."
+    },
+    {
+      "name": "Founder",
+      "priceUSD": 249,
+      "priceZAR": 4500,
+      "description": "Bi-weekly 1:1 strategy calls (30 min), priority Discord support (24-48hr response), custom prompt engineering, access to templates and case study library, monthly group mastermind. Best for active builders launching products."
+    },
+    {
+      "name": "Accelerator",
+      "priceUSD": 499,
+      "priceZAR": 9000,
+      "description": "Weekly 1:1 calls (45 min), hands-on live coding sessions (2x/month), white-glove prompt customization, direct Slack access, pre-launch review and feedback. Best for solopreneurs ready to scale."
+    }
+  ],
+  "leadMagnet": {
+    "name": "7-Day AI App Blueprint",
+    "description": "Email course with day-by-day walkthrough of building your first app with AI tools, plus downloadable tool comparison chart (Lovable vs Cursor vs Bolt). Low-friction entry point to our community."
+  },
+  "primaryChannel": "Email",
+  "emailFromName": "Build Without Code",
+  "emailFromAddress": "noreply@buildwithoutcode.com"
+}

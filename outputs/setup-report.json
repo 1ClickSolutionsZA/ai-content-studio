@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-04-12T18:08:35.792Z",
+  "businessConfig": {
+    "businessName": "Build Without Code",
+    "tagline": "AI-Powered App Building for Non-Technical Founders",
+    "targetAudience": {
+      "primary": "Non-technical solopreneurs and founders",
+      "experienceLevel": "Absolute beginners with no programming background",
+      "goals": [
+        "Build SaaS products",
+        "Create web apps",
+        "Launch prototypes with minimal coding"
+      ]
+    },
+    "productTiers": [
+      {
+        "name": "Builder",
+        "priceUSD": 99,
+        "priceZAR": 1800,
+        "description": "Weekly 30-min async coaching via Loom videos, private Discord community access, monthly group Q&A call, and AI prompt templates library. Best for beginners testing ideas."
+      },
+      {
+        "name": "Founder",
+        "priceUSD": 249,
+        "priceZAR": 4500,
+        "description": "Bi-weekly 1:1 strategy calls (30 min), priority Discord support (24-48hr response), custom prompt engineering, access to templates and case study library, monthly group mastermind. Best for active builders launching products."
+      },
+      {
+        "name": "Accelerator",
+        "priceUSD": 499,
+        "priceZAR": 9000,
+        "description": "Weekly 1:1 calls (45 min), hands-on live coding sessions (2x/month), white-glove prompt customization, direct Slack access, pre-launch review and feedback. Best for solopreneurs ready to scale."
+      }
+    ],
+    "leadMagnet": {
+      "name": "7-Day AI App Blueprint",
+      "description": "Email course with day-by-day walkthrough of building your first app with AI tools, plus downloadable tool comparison chart (Lovable vs Cursor vs Bolt). Low-friction entry point to our community."
+    },
+    "primaryChannel": "Email",
+    "emailFromName": "Build Without Code",
+    "emailFromAddress": "noreply@buildwithoutcode.com"
+  },
+  "filesCreated": [
+    "config/business-config.json",
+    "outputs/landing-page.html",
+    "outputs/gumroad-listings.json",
+    "outputs/email-sequence.json"
+  ],
+  "manualStepsRequired": "# Build Without Code - Business Setup Report\n\n## Executive Summary\nThis report outlines the critical manual setup steps required to launch **Build Without Code** with all core business infrastructure operational. All four components must be completed before going live.\n\n---\n\n## 1. NETLIFY DEPLOYMENT: Landing Page\n\n### Objective\nDeploy `landing-page.html` to a live Netlify domain for public access.\n\n### Step-by-Step Instructions\n\n#### Phase 1: Prepare Your Repository\n1. Create a GitHub account at **https://github.com/signup** (if you don't have one)\n2. Create a new repository named `build-without-code`\n3. Set repository visibility to **Public**\n4. Clone the repository to your local machine:\n   ```bash\n   git clone https://github.com/[YOUR-USERNAME]/build-without-code.git\n   ```\n5. Place `landing-page.html` in the root directory of the cloned repository\n6. Create a `README.md` file with basic project description\n7. Commit and push files to GitHub:\n   ```bash\n   git add .\n   git commit -m \"Initial commit: Add landing page\"\n   git push origin main\n   ```\n\n#### Phase 2: Connect Netlify\n1. Go to **https://app.netlify.com**\n2. Click **\"Sign up\"** and choose **\"Sign up with GitHub\"**\n3. Authorize Netlify to access your GitHub account\n4. Click **\"Add new site\"** → **\"Import an existing project\"**\n5. Select **GitHub** as your Git provider\n6. Find and select the `build-without-code` repository\n7. Configure build settings:\n   - **Base directory**: Leave blank\n   - **Build command**: Leave blank\n   - **Publish directory**: Leave blank (root directory)\n8. Click **\"Deploy site\"**\n\n#### Phase 3: Configure Custom Domain (Optional but Recommended)\n1. In Netlify dashboard, go to **Site settings** → **Domain management**\n2. Click **\"Add custom domain\"**\n3. Enter your domain name (e.g., `buildwithoutcode.com`)\n4. Follow DNS configuration instructions for your domain registrar\n5. Update DNS records as specified by Netlify (typically CNAME or A records)\n6. Allow 24-48 hours for DNS propagation\n\n#### Phase 4: Verify Deployment\n- **Test URL**: Your Netlify site is live at `https://[your-site-name].netlify.app`\n- Open the URL in a browser and confirm landing page loads correctly\n- Check all links and CTAs function properly\n- Test form submissions (if included)\n\n### Key Details\n- **Live URL format**: `https://[project-name].netlify.app`\n- **Deployment is automatic** when you push to the `main` branch\n- **HTTPS is enabled by default**\n\n---\n\n## 2. GUMROAD ACCOUNT SETUP & PRODUCT LISTING\n\n### Objective\nCreate a Gumroad seller account and list your digital products for sale.\n\n### Step-by-Step Instructions\n\n#### Phase 1: Account Creation\n1. Go to **https://gumroad.com/creators**\n2. Click **\"Start selling\"**\n3. Sign up with email or social account\n4. Verify your email address\n5. Complete your creator profile:\n   - **Name**: Your name or brand\n   - **Username**: Handle for your Gumroad URL (e.g., `@buildwithoutcode`)\n   - **Bio**: Brief description (100-150 characters)\n   - **Profile picture**: Upload logo/headshot (recommended size: 400x400px)\n   - **Email**: Your primary contact email\n\n#### Phase 2: Add Payment Method\n1. Go to **Settings** → **Payouts**\n2. Click **\"Add a payout method\"**\n3. Select your country and bank account type\n4. Enter banking details (account number, routing number, etc.)\n5. For US: You may need to add a W-9 tax form\n6. Verify and confirm your payout account\n7. **Note**: Gumroad will deposit earnings weekly to your connected bank account\n\n#### Phase 3: Create Your First Product Listing\n1. In dashboard, click **\"Products\"** → **\"New Product\"**\n2. Fill in"
+}
