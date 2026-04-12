@@ -8,7 +8,8 @@
     "research": "node agents/research-agent.js",
     "setup": "node agents/setup-agent.js",
     "marketing": "node agents/marketing-agent.js",
-    "fulfill": "node agents/fulfillment-agent.js"
+    "fulfill": "node agents/fulfillment-agent.js",
+    "comms": "node agents/comms-agent.js"
   },
   "keywords": [],
   "author": "",

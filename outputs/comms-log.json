@@ -1,0 +1,93 @@
+{
+  "communications": [
+    {
+      "timestamp": "2026-04-12T18:50:29.362Z",
+      "type": "onboarding",
+      "emailNumber": 1,
+      "student": {
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      },
+      "subject": "Welcome to Build Without Code 🚀",
+      "daysSinceSignup": 5,
+      "email": {
+        "result": {
+          "status": "dry-run",
+          "reason": "RESEND_API_KEY not set",
+          "provider": "none"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T18:50:34.196Z",
+      "type": "onboarding",
+      "emailNumber": 2,
+      "student": {
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      },
+      "subject": "The 1 mistake that kills non-technical founder projects",
+      "daysSinceSignup": 5,
+      "email": {
+        "result": {
+          "status": "dry-run",
+          "reason": "RESEND_API_KEY not set",
+          "provider": "none"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T18:50:39.293Z",
+      "type": "onboarding",
+      "emailNumber": 3,
+      "student": {
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      },
+      "subject": "Start With This AI Tool (Not the Shiny New One)",
+      "daysSinceSignup": 5,
+      "email": {
+        "result": {
+          "status": "dry-run",
+          "reason": "RESEND_API_KEY not set",
+          "provider": "none"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T18:51:47.199Z",
+      "type": "re-engagement",
+      "student": {
+        "name": "John Doe",
+        "email": "john@example.com"
+      },
+      "subject": "Line:",
+      "daysSinceLastActive": 21,
+      "email": {
+        "result": {
+          "status": "dry-run",
+          "reason": "RESEND_API_KEY not set",
+          "provider": "none"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T18:52:19.562Z",
+      "type": "monthly-check-in",
+      "student": {
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      },
+      "tier": "Builder",
+      "monthNumber": 3,
+      "subject": "You're 3 Months In, Jane—Let's Level Up 🚀",
+      "email": {
+        "result": {
+          "status": "dry-run",
+          "reason": "RESEND_API_KEY not set",
+          "provider": "none"
+        }
+      }
+    }
+  ]
+}
