@@ -1,0 +1,66 @@
+{
+  "listings": [
+    {
+      "title": "Senior Cat Kidney Support Powder",
+      "description": "Specially formulated to support kidney health in aging cats, this premium powder blend contains essential nutrients and antioxidants that promote optimal renal function. Easy to mix with wet food, it helps maintain your senior cat's quality of life during their golden years.",
+      "priceZAR": 220,
+      "compareAtPriceZAR": 245,
+      "tags": [
+        "senior cats",
+        "kidney support",
+        "nutritional supplement",
+        "renal health",
+        "senior pet care",
+        "South African"
+      ],
+      "vendor": "PawVital SA",
+      "product_type": "Nutritional Supplement",
+      "seo": {
+        "title": "Senior Cat Kidney Support Powder | PawVital SA",
+        "description": "Premium kidney support powder for aging cats. Natural formula promotes renal health and wellness in senior felines."
+      }
+    },
+    {
+      "title": "Senior Dog Joint Support Supplement",
+      "description": "Give your senior dog the mobility and comfort they deserve with this advanced joint support formula featuring glucosamine, chondroitin, and natural anti-inflammatory ingredients. Scientifically formulated to reduce stiffness and promote active aging in dogs over 7 years old.",
+      "priceZAR": 220,
+      "compareAtPriceZAR": 250,
+      "tags": [
+        "senior dogs",
+        "joint support",
+        "mobility",
+        "arthritis relief",
+        "nutritional supplement",
+        "aging dogs",
+        "South African"
+      ],
+      "vendor": "PawVital SA",
+      "product_type": "Nutritional Supplement",
+      "seo": {
+        "title": "Senior Dog Joint Support Supplement | PawVital SA",
+        "description": "Joint support for aging dogs. Glucosamine formula reduces stiffness and supports mobility in senior pets."
+      }
+    },
+    {
+      "title": "Pet Anxiety Calming CBD Oil Drops",
+      "description": "Premium locally-sourced CBD oil specifically designed to soothe anxiety and stress in dogs and cats during challenging situations. Our easy-to-administer drops provide natural calming support without sedation, helping your pet feel relaxed and safe.",
+      "priceZAR": 220,
+      "compareAtPriceZAR": 260,
+      "tags": [
+        "CBD oil",
+        "anxiety relief",
+        "calming drops",
+        "stress support",
+        "dogs and cats",
+        "behavioral wellness",
+        "South African made"
+      ],
+      "vendor": "PawVital SA",
+      "product_type": "Behavioral/Wellness",
+      "seo": {
+        "title": "Pet Anxiety Calming CBD Oil Drops | PawVital SA",
+        "description": "Natural CBD oil drops for anxious dogs and cats. Local SA-made formula for stress and anxiety relief."
+      }
+    }
+  ]
+}

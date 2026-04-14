@@ -1,40 +1,85 @@
 {
-  "businessName": "Build Without Code",
-  "tagline": "AI-Powered App Building for Non-Technical Founders",
-  "targetAudience": {
-    "primary": "Non-technical solopreneurs and founders",
-    "experienceLevel": "Absolute beginners with no programming background",
-    "goals": [
-      "Build SaaS products",
-      "Create web apps",
-      "Launch prototypes with minimal coding"
-    ]
+  "businessName": "PawVital SA",
+  "tagline": "Trusted Pet Health, Delivered Across South Africa",
+  "niche": "Pet Health",
+  "subNiche": "Senior & Exotic Pet Wellness Supplements",
+  "launchProduct": {
+    "name": "Senior Cat Kidney Support Powder",
+    "reason": "Lowest breakeven (20 units), 54.55% margin, medium competition, organic demand growth"
   },
-  "productTiers": [
+  "productCatalogue": [
     {
-      "name": "Builder",
-      "priceUSD": 99,
-      "priceZAR": 1800,
-      "description": "Weekly 30-min async coaching via Loom videos, private Discord community access, monthly group Q&A call, and AI prompt templates library. Best for beginners testing ideas."
+      "name": "Senior Cat Kidney Support Powder",
+      "category": "Nutritional Supplements",
+      "targetPet": "Senior Cats",
+      "grossMarginPercent": 54.55,
+      "opportunityScore": 7,
+      "riskScore": 6,
+      "priceZAR": 220
     },
     {
-      "name": "Founder",
-      "priceUSD": 249,
-      "priceZAR": 4500,
-      "description": "Bi-weekly 1:1 strategy calls (30 min), priority Discord support (24-48hr response), custom prompt engineering, access to templates and case study library, monthly group mastermind. Best for active builders launching products."
+      "name": "Senior Dog Joint Support Supplement",
+      "category": "Nutritional Supplements",
+      "targetPet": "Senior Dogs",
+      "grossMarginPercent": 52.22,
+      "opportunityScore": 8,
+      "riskScore": 8,
+      "priceZAR": 220
     },
     {
-      "name": "Accelerator",
-      "priceUSD": 499,
-      "priceZAR": 9000,
-      "description": "Weekly 1:1 calls (45 min), hands-on live coding sessions (2x/month), white-glove prompt customization, direct Slack access, pre-launch review and feedback. Best for solopreneurs ready to scale."
+      "name": "Pet Anxiety Calming CBD Oil Drops",
+      "category": "Behavioral/Wellness",
+      "targetPet": "Dogs and Cats",
+      "grossMarginPercent": 47.3,
+      "opportunityScore": 7,
+      "riskScore": 9,
+      "priceZAR": 220
+    },
+    {
+      "name": "Rabbit and Guinea Pig Dental Chew Toys",
+      "category": "Enrichment/Dental Care",
+      "targetPet": "Small Rodents",
+      "grossMarginPercent": 65.18,
+      "opportunityScore": 4,
+      "riskScore": 5,
+      "priceZAR": 220
     }
   ],
-  "leadMagnet": {
-    "name": "7-Day AI App Blueprint",
-    "description": "Email course with day-by-day walkthrough of building your first app with AI tools, plus downloadable tool comparison chart (Lovable vs Cursor vs Bolt). Low-friction entry point to our community."
+  "supplierMatrix": [
+    {
+      "product": "Senior Cat Kidney Support Powder",
+      "bestSupplier": "CJ Dropshipping (scale to local SAPC supplier)",
+      "shippingDays": 15,
+      "dutyRisk": "medium"
+    },
+    {
+      "product": "Senior Dog Joint Support Supplement",
+      "bestSupplier": "CJ Dropshipping",
+      "shippingDays": 14,
+      "dutyRisk": "medium"
+    },
+    {
+      "product": "Pet Anxiety Calming CBD Oil Drops",
+      "bestSupplier": "Local SA Supplier Only",
+      "shippingDays": 1,
+      "dutyRisk": "low"
+    },
+    {
+      "product": "Rabbit and Guinea Pig Dental Chew Toys",
+      "bestSupplier": "CJ Dropshipping",
+      "shippingDays": 12,
+      "dutyRisk": "low"
+    }
+  ],
+  "pricingStrategy": "R220 retail; R190/month subscribe-and-save; bundle 3-month supply at R580",
+  "trafficStrategy": {
+    "primaryChannel": "Facebook/Instagram targeting SA cat owners aged 35-60, vet care interests",
+    "secondaryChannels": [
+      "Google Search ads: 'cat kidney disease SA', 'senior cat supplement South Africa'",
+      "SEO blog content targeting CKD symptom and treatment queries"
+    ],
+    "contentApproach": "Emotional storytelling + vet-informed education targeting senior cat parents"
   },
-  "primaryChannel": "Email",
-  "emailFromName": "Build Without Code",
-  "emailFromAddress": "noreply@buildwithoutcode.com"
+  "emailFromName": "PawVital SA",
+  "emailFromAddress": "noreply@pawvital.co.za"
 }
